@@ -18,3 +18,6 @@
 
 # Add jd-dailybonus
 git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git package/jd-dailybonus
+
+# Add Aliddns
+git clone https://github.com/Ausaci/luci-app-aliddns package/aliddns
