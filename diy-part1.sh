@@ -21,3 +21,6 @@ git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git package/jd-dai
 
 # Add Aliddns
 git clone https://github.com/Ausaci/luci-app-aliddns package/aliddns
+
+# Add luci-app-shadowsocks
+git clone https://github.com/shadowsocks/luci-app-shadowsocks.git package/luci-app-shadowsocks
