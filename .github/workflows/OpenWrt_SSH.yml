@@ -16,13 +16,13 @@ on:
     inputs:
       ssh:
         description: 'SSH connection to Actions'
-        required: false
-        default: 'false'
-  push:
-    branches:
-      - main
-    paths:
-      - 'OpenWrt_SSH.config'
+        required: true
+        default: 'true'
+#  push:
+#    branches:
+#      - main
+#    paths:
+#      - 'OpenWrt_SSH.config'
 #  schedule:
 #    - cron: 0 8 * * 5
 
