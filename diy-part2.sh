@@ -21,7 +21,7 @@ sed -i "s/OpenWrt /Ausaci build $(TZ=UTC-8 date "+%Y.%m.%d") @ OpenWrt /g" packa
 
 # Add kernel build user
 [ -z $(grep "CONFIG_KERNEL_BUILD_USER=" .config) ] &&
-    echo 'CONFIG_KERNEL_BUILD_USER="P3TERX"' >>.config ||
+    echo 'CONFIG_KERNEL_BUILD_USER="Ausaci"' >>.config ||
     sed -i 's@\(CONFIG_KERNEL_BUILD_USER=\).*@\1$"Ausaci"@' .config
 
 # Add kernel build domain
