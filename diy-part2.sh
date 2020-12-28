@@ -16,6 +16,9 @@
 # Modify hostname
 #sed -i 's/OpenWrt/Newifi-D2(Device_name)/g' package/base-files/files/bin/config_generate
 
+# Modify default theme
+sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' feeds/luci/collections/luci/Makefile
+
 # Modify the version number
 sed -i "s/OpenWrt /Ausaci build $(TZ=UTC-8 date "+%Y.%m.%d") @ OpenWrt /g" package/lean/default-settings/files/zzz-default-settings
 
