@@ -16,18 +16,18 @@
 # Modify hostname
 #sed -i 's/OpenWrt/Newifi-D2(Device_name)/g' package/base-files/files/bin/config_generate
 
-# Timezone
+# Modify the version number
+sed -i "s/OpenWrt /Ausaci build $(TZ=UTC-8 date "+%Y.%m.%d") @ OpenWrt /g" package/lean/default-settings/files/zzz-default-settings
+
+# Modify Timezone
 # sed -i "s/timezone='UTC'/timezone='CST-8'/" package/base-files/files/bin/config_generate
 # sed -i "/timezone='CST-8'/a set system.@system[-1].zonename='Asia/Shanghai'" ./package/base-files/files/bin/config_generate
 
-# Firewall custom
+# Modify Firewall custom
 # echo "iptables -t nat -I POSTROUTING -o eth0 -j MASQUERADE" >> package/network/config/firewall/files/firewall.user
 
 # Modify default theme
 sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' feeds/luci/collections/luci/Makefile
-
-# Modify the version number
-sed -i "s/OpenWrt /Ausaci build $(TZ=UTC-8 date "+%Y.%m.%d") @ OpenWrt /g" package/lean/default-settings/files/zzz-default-settings
 
 # Add kernel build user
 [ -z $(grep "CONFIG_KERNEL_BUILD_USER=" .config) ] &&
