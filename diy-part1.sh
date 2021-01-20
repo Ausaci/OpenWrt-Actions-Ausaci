@@ -16,6 +16,9 @@
 # Add a feed source
 #sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
 
+# Add helloworld
+git clone https://github.com/Ausaci/helloworld_Ausaci.git package/helloworld
+
 # Add jd-dailybonus
 #git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git package/jd-dailybonus
 
