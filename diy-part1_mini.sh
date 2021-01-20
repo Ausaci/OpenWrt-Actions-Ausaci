@@ -17,10 +17,10 @@
 #sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
 
 # Add helloworld
-git clone https://github.com/fw876/helloworld package/helloworld
+#git clone https://github.com/fw876/helloworld package/helloworld
 
 # Add helloworld_Copy (Version 180-10 at Nov 28, 2020)
-#git clone https://github.com/Ausaci/helloworld_Copy.git package/helloworld-copy
+git clone https://github.com/Ausaci/helloworld_Copy.git package/helloworld-copy
 
 # Add jd-dailybonus
 #git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git package/jd-dailybonus
