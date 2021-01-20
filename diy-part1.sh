@@ -20,7 +20,7 @@
 #git clone https://github.com/Ausaci/helloworld_Ausaci.git package/helloworld
 
 # Add helloworld_Copy
-git clone https://github.com/Ausaci/helloworld_Copy.git package/helloworld
+git clone https://github.com/Ausaci/helloworld_Copy.git package/helloworld-copy
 
 # Add jd-dailybonus
 #git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git package/jd-dailybonus
