@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: Action OpenWrt_Mimini
+name: Build OpenWrt_Mimini
 
 on:
   repository_dispatch:
@@ -24,7 +24,7 @@ env:
   REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: Mimini.config
-  DIY_P1_SH: diy-part1_mini.sh
+  DIY_P1_SH: diy-part1_ausaci.sh
   DIY_P2_SH: diy-part2.sh
   UPLOAD_BIN_DIR: true
   UPLOAD_FIRMWARE: true
