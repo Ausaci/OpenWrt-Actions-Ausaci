@@ -16,20 +16,24 @@
 # Add a feed source
 #sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
 
-# Add helloworld
+# Add helloworld fw876
 #git clone https://github.com/fw876/helloworld package/helloworld
 
-# Add helloworld_Copy (Version 180-10 at Nov 28, 2020)
+# Add helloworld_Copy ((V2ray-core version 180-10 at Nov 28, 2020)
 git clone https://github.com/Ausaci/helloworld_Copy.git package/helloworld-copy
 
-# Add jd-dailybonus
-#git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git package/jd-dailybonus
+# Add luci-app-shadowsocks
+git clone https://github.com/shadowsocks/luci-app-shadowsocks.git package/luci-app-shadowsocks
 
-# Add Aliddns
-git clone https://github.com/Ausaci/luci-app-aliddns package/aliddns
+# Add luci-app-vssr
+git clone https://github.com/jerrykuku/lua-maxminddb.git package/lua-maxminddb
+git clone https://github.com/jerrykuku/luci-app-vssr.git package/luci-app-vssr
 
 # Add Netmap
 git clone https://github.com/Ausaci/luci-app-netmap package/netmap
 
-# Add luci-app-shadowsocks
-git clone https://github.com/shadowsocks/luci-app-shadowsocks.git package/luci-app-shadowsocks
+# Add Aliddns
+git clone https://github.com/Ausaci/luci-app-aliddns package/aliddns
+
+# Add jd-dailybonus
+#git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git package/jd-dailybonus
