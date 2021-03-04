@@ -29,6 +29,9 @@ git clone https://github.com/jerrykuku/luci-app-vssr.git package/luci-app-vssr
 # Add luci-app-shadowsocks
 git clone https://github.com/shadowsocks/luci-app-shadowsocks.git package/luci-app-shadowsocks
 
+# Add ServerChan
+git clone https://github.com/tty228/luci-app-serverchan.git package/luci-app-serverchan
+
 # Add Netmap
 git clone https://github.com/Ausaci/luci-app-netmap package/netmap
 
