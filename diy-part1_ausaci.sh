@@ -16,6 +16,9 @@
 # Add a feed source
 #sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
 
+# Add Nat6-helper
+git clone https://github.com/Ausaci/luci-app-nat6-helper.git package/luci-app-nat6-helper
+
 # Add helloworld fw876
 #git clone https://github.com/fw876/helloworld package/helloworld
 
