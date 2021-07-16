@@ -45,7 +45,7 @@ git clone https://github.com/Ausaci/luci-app-aliddns package/aliddns
 #git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git package/jd-dailybonus
 
 # Add luci-app-socat
-svn co https://github.com/immortalwrt/luci/branches/openwrt-18.06/applications/luci-app-socat package/luci-app-socat
+#svn co https://github.com/immortalwrt/luci/trunk/applications/luci-app-socat package/luci-app-socat
 
 # Delete .svn
 #sudo find package/ -type d -iname ".svn" | sudo xargs rm -rf $1
