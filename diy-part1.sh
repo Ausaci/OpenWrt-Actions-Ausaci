@@ -48,5 +48,5 @@ git clone https://github.com/Ausaci/luci-app-aliddns package/aliddns
 svn co https://github.com/immortalwrt/luci/branches/openwrt-18.06/applications/luci-app-socat package/luci-app-socat
 
 # Delete .svn
-sudo find ./ -type d -iname ".svn" | sudo xargs rm -rf $1
+#sudo find package/ -type d -iname ".svn" | sudo xargs rm -rf $1
 
