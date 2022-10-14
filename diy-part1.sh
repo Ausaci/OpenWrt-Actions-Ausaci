@@ -26,14 +26,14 @@ git clone https://github.com/fw876/helloworld package/helloworld
 #git clone https://github.com/Ausaci/helloworld_Copy.git package/helloworld-copy
 
 # Add luci-app-vssr
-git clone https://github.com/jerrykuku/lua-maxminddb.git package/lua-maxminddb
-git clone https://github.com/jerrykuku/luci-app-vssr.git package/luci-app-vssr
+#git clone https://github.com/jerrykuku/lua-maxminddb.git package/lua-maxminddb
+#git clone https://github.com/jerrykuku/luci-app-vssr.git package/luci-app-vssr
 
 # Add luci-app-shadowsocks
 git clone https://github.com/shadowsocks/luci-app-shadowsocks.git package/luci-app-shadowsocks
 
 # Add luci-app-socat
-svn co https://github.com/immortalwrt/luci/trunk/applications/luci-app-socat package/luci-app-socat
+#svn co https://github.com/immortalwrt/luci/trunk/applications/luci-app-socat package/luci-app-socat
 
 # Add ServerChan
 git clone https://github.com/tty228/luci-app-serverchan.git package/luci-app-serverchan
