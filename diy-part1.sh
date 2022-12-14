@@ -25,9 +25,6 @@ git clone https://github.com/Ausaci/luci-app-netmap package/netmap
 # Add Nat6-helper
 git clone https://github.com/Ausaci/luci-app-nat6-helper.git package/luci-app-nat6-helper
 
-# Add ServerChan
-git clone https://github.com/tty228/luci-app-serverchan.git package/luci-app-serverchan
-
 # Add helloworld fw876
 git clone https://github.com/fw876/helloworld package/helloworld
 
@@ -40,6 +37,9 @@ git clone https://github.com/fw876/helloworld package/helloworld
 
 # Add luci-app-shadowsocks
 # git clone https://github.com/shadowsocks/luci-app-shadowsocks.git package/luci-app-shadowsocks
+
+# Add ServerChan (Added in lean/luci)
+# git clone https://github.com/tty228/luci-app-serverchan.git package/luci-app-serverchan
 
 # Add luci-app-socat (Added in lean/luci)
 # svn co https://github.com/immortalwrt/luci/branches/openwrt-18.06/applications/luci-app-socat package/luci-app-socat
